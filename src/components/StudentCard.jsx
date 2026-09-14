@@ -16,7 +16,7 @@ export default function StudentCard({
       <p>Student Number: {student_number}</p>
       <p>Course: {course}</p>
 
-      <Link to={`/students/${id}`}>Student Details</Link>
+      <strong><Link to={`/students/${id}`}>Student Details</Link></strong>
     </div>
   );
 }
